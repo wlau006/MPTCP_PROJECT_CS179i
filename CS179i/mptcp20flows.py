@@ -7,7 +7,7 @@ from mininet.link import TCLink
 from mininet.cli import CLI
 from mininet.net import Mininet
 
-numflows = 4
+numflows = 20
 
 class MPTopo(Topo):
     HOST_IP = '10.0.{0}.{1}'
