@@ -1,128 +1,1443 @@
-------------------------------------------------------------
-Server listening on TCP port 5001
-TCP window size: 85.3 KByte (default)
-------------------------------------------------------------
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44278
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44288
-[ ID] Interval       Transfer     Bandwidth
-[  4]  0.0-10.6 sec  7.32 MBytes  5.82 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44290
-[  5]  0.0-20.8 sec  6.75 MBytes  2.72 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44294
-[  4]  0.0-30.7 sec  5.96 MBytes  1.63 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44298
-[  5]  0.0-41.0 sec  7.12 MBytes  1.46 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44300
-[  4]  0.0-51.1 sec  7.50 MBytes  1.23 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44302
-[  5]  0.0-61.4 sec  5.88 MBytes   802 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44306
-[  4]  0.0-71.5 sec  5.75 MBytes   675 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44312
-[  5]  0.0-81.8 sec  6.00 MBytes   615 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44314
-[  4]  0.0-92.0 sec  6.88 MBytes   627 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44316
-[  5]  0.0-102.1 sec  7.12 MBytes   585 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44318
-[  4]  0.0-112.2 sec  7.50 MBytes   561 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44322
-[  5]  0.0-122.3 sec  6.00 MBytes   412 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44324
-[  4]  0.0-132.6 sec  6.12 MBytes   387 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44328
-[  5]  0.0-142.7 sec  6.25 MBytes   367 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44330
-[  4]  0.0-153.0 sec  6.50 MBytes   356 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44332
-[  5]  0.0-163.0 sec  6.38 MBytes   328 Kbits/sec
-[  4]  0.0-173.7 sec  6.09 MBytes   294 Kbits/sec
-[SUM]  0.0-173.7 sec   111 MBytes  5.37 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44334
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44336
-[  4]  0.0-10.2 sec  5.62 MBytes  4.61 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44338
-[  5]  0.0-20.4 sec  5.79 MBytes  2.39 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44340
-[  4]  0.0-30.9 sec  6.88 MBytes  1.87 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44342
-[  5]  0.0-41.1 sec  7.00 MBytes  1.43 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44344
-[  4]  0.0-51.1 sec  6.88 MBytes  1.13 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44346
-[  5]  0.0-61.2 sec  6.33 MBytes   867 Kbits/sec
-[  4]  0.0-71.2 sec  6.62 MBytes   781 Kbits/sec
-[SUM]  0.0-71.2 sec  45.1 MBytes  5.32 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44348
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44350
-[  4]  0.0-10.3 sec  6.00 MBytes  4.90 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44352
-[  5]  0.0-20.3 sec  5.72 MBytes  2.36 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44354
-[  4]  0.0-30.6 sec  6.25 MBytes  1.71 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44356
-[  5]  0.0-41.0 sec  6.77 MBytes  1.39 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44358
-[  4]  0.0-51.3 sec  7.50 MBytes  1.23 Mbits/sec
-[  5]  0.0-61.0 sec  6.50 MBytes   894 Kbits/sec
-[SUM]  0.0-61.0 sec  38.7 MBytes  5.33 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44360
-[  4]  0.0-10.1 sec  6.00 MBytes  4.99 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44362
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44364
-[  5]  0.0-10.6 sec  5.84 MBytes  4.60 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44366
-[  4]  0.0-20.5 sec  7.38 MBytes  3.02 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44368
-[  5]  0.0-31.0 sec  6.00 MBytes  1.62 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44370
-[  4]  0.0-40.8 sec  6.38 MBytes  1.31 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44374
-[  5]  0.0-51.0 sec  6.62 MBytes  1.09 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44376
-[  4]  0.0-61.3 sec  5.99 MBytes   820 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44378
-[  5]  0.0-71.2 sec  8.00 MBytes   943 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44384
-[  4]  0.0-81.4 sec  5.62 MBytes   580 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44386
-[  5]  0.0-91.5 sec  5.50 MBytes   504 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44390
-[  4]  0.0-101.9 sec  6.88 MBytes   566 Kbits/sec
-[  5]  0.0-112.1 sec  7.00 MBytes   524 Kbits/sec
-[SUM]  0.0-112.1 sec  71.2 MBytes  5.33 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44392
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44396
-[  4]  0.0-10.5 sec  7.00 MBytes  5.57 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44398
-[  5]  0.0-20.7 sec  7.25 MBytes  2.94 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44400
-[  4]  0.0-30.7 sec  5.50 MBytes  1.50 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44402
-[  5]  0.0-41.2 sec  5.70 MBytes  1.16 Mbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44404
-[  4]  0.0-51.4 sec  6.35 MBytes  1.04 Mbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44406
-[  5]  0.0-61.8 sec  4.99 MBytes   677 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44408
-[  4]  0.0-72.0 sec  6.85 MBytes   798 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44410
-[  5]  0.0-82.4 sec  6.88 MBytes   700 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44412
-[  4]  0.0-92.2 sec  6.38 MBytes   580 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44414
-[  5]  0.0-102.5 sec  6.83 MBytes   559 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44416
-[  4]  0.0-112.6 sec  7.00 MBytes   522 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44418
-[  5]  0.0-122.7 sec  6.03 MBytes   412 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44420
-[  4]  0.0-132.8 sec  7.50 MBytes   474 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44422
-[  5]  0.0-142.9 sec  6.21 MBytes   364 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44424
-[  4]  0.0-154.0 sec  6.98 MBytes   380 Kbits/sec
-[  4] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44426
-[  5]  0.0-163.5 sec  7.12 MBytes   366 Kbits/sec
-[  5] local 10.0.0.2 port 5001 connected with 10.0.0.1 port 44428
-[  4]  0.0-174.1 sec  6.22 MBytes   300 Kbits/sec
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:26:43 GMT
+Accepted connection from 10.0.0.1, port 34394
+      Cookie: erillsjrbuv3ta6f7btz6om62ayn6k4wbp5r
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34396
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   996 KBytes  8.15 Mbits/sec                  
+[  5]   1.00-2.00   sec   816 KBytes  6.68 Mbits/sec                  
+[  5]   2.00-3.00   sec   701 KBytes  5.75 Mbits/sec                  
+[  5]   3.00-4.00   sec   595 KBytes  4.88 Mbits/sec                  
+[  5]   4.00-5.00   sec   506 KBytes  4.15 Mbits/sec                  
+[  5]   5.00-5.04   sec  14.1 KBytes  3.03 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.54 MBytes  5.90 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:26:48 GMT
+Accepted connection from 10.0.0.1, port 34398
+      Cookie: xdnjqiearss5gj2qvkr2n5fvjq7tlsiy6et7
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34400
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1001 KBytes  8.20 Mbits/sec                  
+[  5]   1.00-2.00   sec   957 KBytes  7.84 Mbits/sec                  
+[  5]   2.00-3.00   sec   936 KBytes  7.67 Mbits/sec                  
+[  5]   3.00-4.00   sec   576 KBytes  4.71 Mbits/sec                  
+[  5]   4.00-5.00   sec   414 KBytes  3.39 Mbits/sec                  
+[  5]   5.00-5.04   sec  19.8 KBytes  3.62 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.81 MBytes  6.34 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:26:53 GMT
+Accepted connection from 10.0.0.1, port 34404
+      Cookie: ldvwfc7xmd4pldi4qkvjad3vwwucv4l7p72a
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34406
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.06 MBytes  8.86 Mbits/sec                  
+[  5]   1.00-2.00   sec   776 KBytes  6.37 Mbits/sec                  
+[  5]   2.00-3.00   sec   386 KBytes  3.16 Mbits/sec                  
+[  5]   3.00-4.00   sec   675 KBytes  5.53 Mbits/sec                  
+[  5]   4.00-5.00   sec   816 KBytes  6.67 Mbits/sec                  
+[  5]   5.00-5.04   sec  36.8 KBytes  8.75 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.69 MBytes  6.14 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:26:59 GMT
+Accepted connection from 10.0.0.1, port 34410
+      Cookie: ne5ytw2wb5ofkum6a4ntnrv5g5q5hcuzd5z4
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34412
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   963 KBytes  7.89 Mbits/sec                  
+[  5]   1.00-2.00   sec   658 KBytes  5.39 Mbits/sec                  
+[  5]   2.00-3.00   sec   899 KBytes  7.37 Mbits/sec                  
+[  5]   3.00-4.00   sec   667 KBytes  5.47 Mbits/sec                  
+[  5]   4.00-5.00   sec   875 KBytes  7.17 Mbits/sec                  
+[  5]   5.00-5.04   sec  22.6 KBytes  4.35 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.99 MBytes  6.64 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:04 GMT
+Accepted connection from 10.0.0.1, port 34414
+      Cookie: dvp3zfozy56zdfdgx2bl42xxxdiqffnll266
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34416
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   901 KBytes  7.38 Mbits/sec                  
+[  5]   1.00-2.00   sec   851 KBytes  6.97 Mbits/sec                  
+[  5]   2.00-3.00   sec   807 KBytes  6.62 Mbits/sec                  
+[  5]   3.00-4.00   sec   667 KBytes  5.47 Mbits/sec                  
+[  5]   4.00-5.00   sec   354 KBytes  2.89 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.50 MBytes  5.82 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:10 GMT
+Accepted connection from 10.0.0.1, port 34418
+      Cookie: ocpmijoieulpbrbjzpjsyx4tummhjffmzqae
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34420
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   788 KBytes  6.45 Mbits/sec                  
+[  5]   1.00-2.00   sec   921 KBytes  7.54 Mbits/sec                  
+[  5]   2.00-3.00   sec   732 KBytes  6.00 Mbits/sec                  
+[  5]   3.00-4.00   sec   687 KBytes  5.63 Mbits/sec                  
+[  5]   4.00-5.00   sec   393 KBytes  3.22 Mbits/sec                  
+[  5]   5.00-5.04   sec  22.6 KBytes  4.77 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.46 MBytes  5.76 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:15 GMT
+Accepted connection from 10.0.0.1, port 34422
+      Cookie: pb2sikt5ujsv2ma4d5cvyjgvbtdltpi6vyim
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34424
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   792 KBytes  6.49 Mbits/sec                  
+[  5]   1.00-2.00   sec   441 KBytes  3.61 Mbits/sec                  
+[  5]   2.00-3.00   sec   554 KBytes  4.54 Mbits/sec                  
+[  5]   3.00-4.00   sec   868 KBytes  7.11 Mbits/sec                  
+[  5]   4.00-5.00   sec   717 KBytes  5.87 Mbits/sec                  
+[  5]   5.00-5.04   sec  28.3 KBytes  5.57 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.32 MBytes  5.53 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:20 GMT
+Accepted connection from 10.0.0.1, port 34428
+      Cookie: g62bvnu75e7uqnfchja5vtf76rcuzn32rvl6
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34430
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.02 MBytes  8.54 Mbits/sec                  
+[  5]   1.00-2.00   sec   597 KBytes  4.89 Mbits/sec                  
+[  5]   2.00-3.00   sec   645 KBytes  5.28 Mbits/sec                  
+[  5]   3.00-4.00   sec   856 KBytes  7.01 Mbits/sec                  
+[  5]   4.00-5.00   sec  1021 KBytes  8.36 Mbits/sec                  
+[  5]   5.00-5.04   sec  36.8 KBytes  7.22 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  4.10 MBytes  6.82 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:26 GMT
+Accepted connection from 10.0.0.1, port 34432
+      Cookie: dohj6hiawwt4ksv4y6wpewc6k5w4vrtnjppr
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34434
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   706 KBytes  5.78 Mbits/sec                  
+[  5]   1.00-2.00   sec   535 KBytes  4.38 Mbits/sec                  
+[  5]   2.00-3.00   sec   728 KBytes  5.97 Mbits/sec                  
+[  5]   3.00-4.00   sec   529 KBytes  4.33 Mbits/sec                  
+[  5]   4.00-5.00   sec   533 KBytes  4.37 Mbits/sec                  
+[  5]   5.00-5.04   sec  36.8 KBytes  7.98 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.00 MBytes  4.99 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:31 GMT
+Accepted connection from 10.0.0.1, port 34436
+      Cookie: ts2fx66aqm7mo24gx2gsceed2yxlm22hnq75
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34438
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   786 KBytes  6.44 Mbits/sec                  
+[  5]   1.00-2.00   sec   566 KBytes  4.63 Mbits/sec                  
+[  5]   2.00-3.00   sec   673 KBytes  5.51 Mbits/sec                  
+[  5]   3.00-4.00   sec   542 KBytes  4.44 Mbits/sec                  
+[  5]   4.00-5.00   sec   612 KBytes  5.02 Mbits/sec                  
+[  5]   5.00-5.04   sec  11.3 KBytes  2.47 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.12 MBytes  5.19 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:37 GMT
+Accepted connection from 10.0.0.1, port 34440
+      Cookie: hit4ktw2gkjumvwqd7n4ivwvszhgudoo7l6j
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34442
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.08 MBytes  9.07 Mbits/sec                  
+[  5]   1.00-2.00   sec   894 KBytes  7.33 Mbits/sec                  
+[  5]   2.00-3.00   sec   571 KBytes  4.68 Mbits/sec                  
+[  5]   3.00-4.00   sec   346 KBytes  2.84 Mbits/sec                  
+[  5]   4.00-5.00   sec   580 KBytes  4.75 Mbits/sec                  
+[  5]   5.00-5.04   sec  35.4 KBytes  7.81 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.45 MBytes  5.75 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:42 GMT
+Accepted connection from 10.0.0.1, port 34444
+      Cookie: vdk7gpzwfmf2ycfo573jparwkrty4hchwq5h
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34446
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.07 MBytes  9.01 Mbits/sec                  
+[  5]   1.00-2.00   sec   785 KBytes  6.43 Mbits/sec                  
+[  5]   2.00-3.00   sec   659 KBytes  5.40 Mbits/sec                  
+[  5]   3.00-4.00   sec   691 KBytes  5.66 Mbits/sec                  
+[  5]   4.00-5.00   sec   561 KBytes  4.60 Mbits/sec                  
+[  5]   5.00-5.04   sec  19.8 KBytes  4.47 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.73 MBytes  6.21 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:47 GMT
+Accepted connection from 10.0.0.1, port 34450
+      Cookie: klc5cdnhzllyssrf5qedyum3xllt2armaqkt
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34452
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   807 KBytes  6.61 Mbits/sec                  
+[  5]   1.00-2.00   sec   700 KBytes  5.73 Mbits/sec                  
+[  5]   2.00-3.00   sec   690 KBytes  5.65 Mbits/sec                  
+[  5]   3.00-4.00   sec   382 KBytes  3.13 Mbits/sec                  
+[  5]   4.00-5.00   sec   495 KBytes  4.05 Mbits/sec                  
+[  5]   5.00-5.04   sec  17.0 KBytes  3.75 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.02 MBytes  5.03 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:53 GMT
+Accepted connection from 10.0.0.1, port 34454
+      Cookie: mg6jg5jrma3xihc3dkvmqvfmgpay6doulfsm
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34456
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   662 KBytes  5.42 Mbits/sec                  
+[  5]   1.00-2.00   sec   708 KBytes  5.81 Mbits/sec                  
+[  5]   2.00-3.00   sec   858 KBytes  7.03 Mbits/sec                  
+[  5]   3.00-4.00   sec   594 KBytes  4.87 Mbits/sec                  
+[  5]   4.00-5.00   sec   393 KBytes  3.22 Mbits/sec                  
+[  5]   5.00-5.04   sec  24.0 KBytes  4.57 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.16 MBytes  5.26 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:27:58 GMT
+Accepted connection from 10.0.0.1, port 34458
+      Cookie: csfmigdp4mjogfeu6if6spxmwcaxmhjkz7lv
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34460
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   939 KBytes  7.69 Mbits/sec                  
+[  5]   1.00-2.00   sec   604 KBytes  4.95 Mbits/sec                  
+[  5]   2.00-3.00   sec   696 KBytes  5.70 Mbits/sec                  
+[  5]   3.00-4.00   sec   460 KBytes  3.77 Mbits/sec                  
+[  5]   4.00-5.00   sec   436 KBytes  3.57 Mbits/sec                  
+[  5]   5.00-5.04   sec  19.8 KBytes  4.63 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.08 MBytes  5.13 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:04 GMT
+Accepted connection from 10.0.0.1, port 34462
+      Cookie: tg4ubjzsvxq7hcipmm3kpkao4s4h6n7zxk4l
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34464
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.04 MBytes  8.76 Mbits/sec                  
+[  5]   1.00-2.00   sec   843 KBytes  6.90 Mbits/sec                  
+[  5]   2.00-3.00   sec   904 KBytes  7.40 Mbits/sec                  
+[  5]   3.00-4.00   sec   601 KBytes  4.92 Mbits/sec                  
+[  5]   4.00-5.00   sec   649 KBytes  5.32 Mbits/sec                  
+[  5]   5.00-5.04   sec  31.1 KBytes  6.17 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  4.00 MBytes  6.66 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:09 GMT
+Accepted connection from 10.0.0.1, port 34468
+      Cookie: lhqzhnrh6hpvwxf422uq34vjn65sz5gmhtdo
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34470
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.03 MBytes  8.61 Mbits/sec                  
+[  5]   1.00-2.00   sec   536 KBytes  4.39 Mbits/sec                  
+[  5]   2.00-3.00   sec   451 KBytes  3.70 Mbits/sec                  
+[  5]   3.00-4.00   sec   742 KBytes  6.08 Mbits/sec                  
+[  5]   4.00-5.00   sec   979 KBytes  8.02 Mbits/sec                  
+[  5]   5.00-5.04   sec  42.4 KBytes  8.79 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.71 MBytes  6.18 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:14 GMT
+Accepted connection from 10.0.0.1, port 34472
+      Cookie: kmefqsvmsyzpr3pnxppgbggfkqnzb425ycls
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34474
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   600 KBytes  4.91 Mbits/sec                  
+[  5]   1.00-2.00   sec   498 KBytes  4.08 Mbits/sec                  
+[  5]   2.00-3.00   sec   519 KBytes  4.25 Mbits/sec                  
+[  5]   3.00-4.00   sec   502 KBytes  4.11 Mbits/sec                  
+[  5]   4.00-5.00   sec   748 KBytes  6.13 Mbits/sec                  
+[  5]   5.00-5.02   sec  14.1 KBytes  5.72 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.02   sec  2.81 MBytes  4.70 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:20 GMT
+Accepted connection from 10.0.0.1, port 34478
+      Cookie: koim6dj3ceffejubungnk72dymqxpcjbppni
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34480
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   966 KBytes  7.91 Mbits/sec                  
+[  5]   1.00-2.00   sec   433 KBytes  3.54 Mbits/sec                  
+[  5]   2.00-3.00   sec   484 KBytes  3.96 Mbits/sec                  
+[  5]   3.00-4.00   sec   492 KBytes  4.03 Mbits/sec                  
+[  5]   4.00-5.00   sec   525 KBytes  4.30 Mbits/sec                  
+[  5]   5.00-5.04   sec  33.9 KBytes  7.82 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.86 MBytes  4.77 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:25 GMT
+Accepted connection from 10.0.0.1, port 34482
+      Cookie: g3ga5p2o2uqxk25xvcyylekgysz3qy2fqjew
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34484
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   979 KBytes  8.01 Mbits/sec                  
+[  5]   1.00-2.00   sec   676 KBytes  5.54 Mbits/sec                  
+[  5]   2.00-3.00   sec   673 KBytes  5.51 Mbits/sec                  
+[  5]   3.00-4.00   sec   494 KBytes  4.04 Mbits/sec                  
+[  5]   4.00-5.00   sec   844 KBytes  6.92 Mbits/sec                  
+[  5]   5.00-5.04   sec  26.9 KBytes  5.21 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.61 MBytes  6.00 Mbits/sec                  receiver
+rcv_tcp_congestion cubic
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:31 GMT
+Accepted connection from 10.0.0.1, port 34486
+      Cookie: 2j4pa56wwcbpjbriy4cmwkfcopqy6bg3plmz
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34488
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   411 KBytes  3.37 Mbits/sec                  
+[  5]   1.00-2.00   sec   535 KBytes  4.38 Mbits/sec                  
+[  5]   2.00-3.00   sec   561 KBytes  4.60 Mbits/sec                  
+[  5]   3.00-4.00   sec   887 KBytes  7.26 Mbits/sec                  
+[  5]   4.00-5.00   sec   765 KBytes  6.27 Mbits/sec                  
+[  5]   5.00-5.04   sec  33.9 KBytes  7.02 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.12 MBytes  5.19 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:36 GMT
+Accepted connection from 10.0.0.1, port 34492
+      Cookie: okjcnl23kzjiw2abuinu2vphnc2kzhqho7o2
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34498
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   829 KBytes  6.79 Mbits/sec                  
+[  5]   1.00-2.00   sec  1.40 MBytes  11.8 Mbits/sec                  
+[  5]   2.00-3.00   sec   516 KBytes  4.23 Mbits/sec                  
+[  5]   3.00-4.00   sec   778 KBytes  6.37 Mbits/sec                  
+[  5]   4.00-5.00   sec   868 KBytes  7.11 Mbits/sec                  
+[  5]   5.00-5.04   sec  33.9 KBytes  7.45 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  4.36 MBytes  7.25 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:41 GMT
+Accepted connection from 10.0.0.1, port 34504
+      Cookie: 7x2rjc6okjqdfplcvtlo22uqyqnubkohqq3o
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34506
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   607 KBytes  4.97 Mbits/sec                  
+[  5]   1.00-2.00   sec   727 KBytes  5.95 Mbits/sec                  
+[  5]   2.00-3.00   sec   287 KBytes  2.35 Mbits/sec                  
+[  5]   3.00-4.00   sec   646 KBytes  5.29 Mbits/sec                  
+[  5]   4.00-5.00   sec   519 KBytes  4.25 Mbits/sec                  
+[  5]   5.00-5.04   sec  29.7 KBytes  6.40 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.75 MBytes  4.58 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:47 GMT
+Accepted connection from 10.0.0.1, port 34508
+      Cookie: uhzwftuuyq6xvmlsjl4tffxpfvx4j5xgm5mz
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34510
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1.04 MBytes  8.76 Mbits/sec                  
+[  5]   1.00-2.00   sec   986 KBytes  8.07 Mbits/sec                  
+[  5]   2.00-3.00   sec   798 KBytes  6.54 Mbits/sec                  
+[  5]   3.00-4.00   sec   723 KBytes  5.92 Mbits/sec                  
+[  5]   4.00-5.00   sec   479 KBytes  3.93 Mbits/sec                  
+[  5]   5.00-5.04   sec  18.4 KBytes  4.12 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.98 MBytes  6.62 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:52 GMT
+Accepted connection from 10.0.0.1, port 34512
+      Cookie: gfywsn2omatcbmoodz56gxkqxo5ph2blhlze
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34514
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec  1017 KBytes  8.32 Mbits/sec                  
+[  5]   1.00-2.00   sec   554 KBytes  4.54 Mbits/sec                  
+[  5]   2.00-3.00   sec   527 KBytes  4.32 Mbits/sec                  
+[  5]   3.00-4.00   sec   542 KBytes  4.44 Mbits/sec                  
+[  5]   4.00-5.00   sec   587 KBytes  4.81 Mbits/sec                  
+[  5]   5.00-5.03   sec  5.66 KBytes  1.42 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  3.16 MBytes  5.26 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:28:57 GMT
+Accepted connection from 10.0.0.1, port 34516
+      Cookie: 47j2qig5wskt3tdbmich6utmokkruu5tjery
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34518
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   696 KBytes  5.70 Mbits/sec                  
+[  5]   1.00-2.00   sec   840 KBytes  6.88 Mbits/sec                  
+[  5]   2.00-3.00   sec   707 KBytes  5.80 Mbits/sec                  
+[  5]   3.00-4.00   sec   921 KBytes  7.54 Mbits/sec                  
+[  5]   4.00-5.00   sec   667 KBytes  5.47 Mbits/sec                  
+[  5]   5.00-5.04   sec  35.4 KBytes  7.22 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.78 MBytes  6.28 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:03 GMT
+Accepted connection from 10.0.0.1, port 34520
+      Cookie: y6adfak4hj4xmh4ltl22abhgn6siwmxm36az
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34522
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   872 KBytes  7.15 Mbits/sec                  
+[  5]   1.00-2.00   sec  1.10 MBytes  9.27 Mbits/sec                  
+[  5]   2.00-3.00   sec  1.39 MBytes  11.7 Mbits/sec                  
+[  5]   3.00-4.00   sec   544 KBytes  4.46 Mbits/sec                  
+[  5]   4.00-5.00   sec   460 KBytes  3.76 Mbits/sec                  
+[  5]   5.00-5.04   sec  38.2 KBytes  8.43 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  4.37 MBytes  7.27 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:08 GMT
+Accepted connection from 10.0.0.1, port 34526
+      Cookie: ncxco5dxw4bytbjwxkswbfwdy77ezte7sclu
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34528
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   434 KBytes  3.56 Mbits/sec                  
+[  5]   1.00-2.00   sec   711 KBytes  5.83 Mbits/sec                  
+[  5]   2.00-3.00   sec  1.07 MBytes  9.00 Mbits/sec                  
+[  5]   3.00-4.00   sec  1021 KBytes  8.36 Mbits/sec                  
+[  5]   4.00-5.00   sec   773 KBytes  6.34 Mbits/sec                  
+[  5]   5.00-5.04   sec  24.0 KBytes  5.24 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.97 MBytes  6.61 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:14 GMT
+Accepted connection from 10.0.0.1, port 34534
+      Cookie: eezf3pkr23augz62tl6mzfs4zii2yphnokny
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34536
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   932 KBytes  7.63 Mbits/sec                  
+[  5]   1.00-2.00   sec   928 KBytes  7.60 Mbits/sec                  
+[  5]   2.00-3.00   sec   615 KBytes  5.04 Mbits/sec                  
+[  5]   3.00-4.00   sec   503 KBytes  4.13 Mbits/sec                  
+[  5]   4.00-5.00   sec   581 KBytes  4.76 Mbits/sec                  
+[  5]   5.00-5.04   sec  26.9 KBytes  5.93 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.50 MBytes  5.83 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:19 GMT
+Accepted connection from 10.0.0.1, port 34538
+      Cookie: poalar6swii3cmch6ieixy4ptsyneu4qtwbp
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34540
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   759 KBytes  6.22 Mbits/sec                  
+[  5]   1.00-2.00   sec   911 KBytes  7.46 Mbits/sec                  
+[  5]   2.00-3.00   sec   684 KBytes  5.61 Mbits/sec                  
+[  5]   3.00-4.00   sec   981 KBytes  8.04 Mbits/sec                  
+[  5]   4.00-5.00   sec   960 KBytes  7.86 Mbits/sec                  
+[  5]   5.00-5.04   sec  49.5 KBytes  9.88 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  4.24 MBytes  7.06 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:25 GMT
+Accepted connection from 10.0.0.1, port 34542
+      Cookie: fnvbbmncxnanpmjxopcef33otzarskif3xfs
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34544
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   467 KBytes  3.82 Mbits/sec                  
+[  5]   1.00-2.00   sec   478 KBytes  3.92 Mbits/sec                  
+[  5]   2.00-3.00   sec   789 KBytes  6.46 Mbits/sec                  
+[  5]   3.00-4.00   sec   539 KBytes  4.41 Mbits/sec                  
+[  5]   4.00-5.00   sec   701 KBytes  5.75 Mbits/sec                  
+[  5]   5.00-5.04   sec  49.5 KBytes  9.36 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.95 MBytes  4.91 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:30 GMT
+Accepted connection from 10.0.0.1, port 34546
+      Cookie: cbs4gmy5pl6xxi4pibwbvlzcojgulipnajs6
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34548
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   580 KBytes  4.75 Mbits/sec                  
+[  5]   1.00-2.00   sec   559 KBytes  4.57 Mbits/sec                  
+[  5]   2.00-3.00   sec   563 KBytes  4.61 Mbits/sec                  
+[  5]   3.00-4.00   sec   389 KBytes  3.19 Mbits/sec                  
+[  5]   4.00-5.00   sec   437 KBytes  3.58 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  2.47 MBytes  4.11 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:36 GMT
+Accepted connection from 10.0.0.1, port 34554
+      Cookie: h3qd5ub4n2fln6aob4rjtwumxv6o2ceggcyd
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34556
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   764 KBytes  6.25 Mbits/sec                  
+[  5]   1.00-2.00   sec   619 KBytes  5.08 Mbits/sec                  
+[  5]   2.00-3.00   sec   469 KBytes  3.85 Mbits/sec                  
+[  5]   3.00-4.00   sec   520 KBytes  4.26 Mbits/sec                  
+[  5]   4.00-5.00   sec   361 KBytes  2.95 Mbits/sec                  
+[  5]   5.00-5.04   sec  12.7 KBytes  2.86 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.68 MBytes  4.47 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:41 GMT
+Accepted connection from 10.0.0.1, port 34560
+      Cookie: tcfvbfmfa5uci3vpxeootxfhouo3bcwfhv4n
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34562
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   826 KBytes  6.76 Mbits/sec                  
+[  5]   1.00-2.00   sec   629 KBytes  5.15 Mbits/sec                  
+[  5]   2.00-3.00   sec   581 KBytes  4.76 Mbits/sec                  
+[  5]   3.00-4.00   sec   437 KBytes  3.58 Mbits/sec                  
+[  5]   4.00-5.00   sec   741 KBytes  6.07 Mbits/sec                  
+[  5]   5.00-5.04   sec  21.2 KBytes  4.62 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.16 MBytes  5.26 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:47 GMT
+Accepted connection from 10.0.0.1, port 34564
+      Cookie: amp6meizdgqln6lcicxrj7xw2fdelzdzfkmd
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34566
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   468 KBytes  3.83 Mbits/sec                  
+[  5]   1.00-2.00   sec   662 KBytes  5.42 Mbits/sec                  
+[  5]   2.00-3.00   sec   645 KBytes  5.28 Mbits/sec                  
+[  5]   3.00-4.00   sec   667 KBytes  5.47 Mbits/sec                  
+[  5]   4.00-5.00   sec   632 KBytes  5.18 Mbits/sec                  
+[  5]   5.00-5.04   sec  12.7 KBytes  2.97 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.01 MBytes  5.02 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:52 GMT
+Accepted connection from 10.0.0.1, port 34570
+      Cookie: cpw67f22w4ksiiukcveecg2a3nxmyvgk3jgq
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34572
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   706 KBytes  5.78 Mbits/sec                  
+[  5]   1.00-2.00   sec   660 KBytes  5.41 Mbits/sec                  
+[  5]   2.00-3.00   sec   789 KBytes  6.46 Mbits/sec                  
+[  5]   3.00-4.00   sec   615 KBytes  5.04 Mbits/sec                  
+[  5]   4.00-5.00   sec   833 KBytes  6.82 Mbits/sec                  
+[  5]   5.00-5.04   sec  41.0 KBytes  7.88 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.56 MBytes  5.92 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:29:58 GMT
+Accepted connection from 10.0.0.1, port 34574
+      Cookie: 7la7rn2avw4bjcsi5qsxotsrlsc2crqt7yb7
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34576
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   683 KBytes  5.59 Mbits/sec                  
+[  5]   1.00-2.00   sec   693 KBytes  5.68 Mbits/sec                  
+[  5]   2.00-3.00   sec   479 KBytes  3.93 Mbits/sec                  
+[  5]   3.00-4.00   sec   583 KBytes  4.77 Mbits/sec                  
+[  5]   4.00-5.00   sec   424 KBytes  3.48 Mbits/sec                  
+[  5]   5.00-5.03   sec  24.0 KBytes  5.74 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  2.82 MBytes  4.70 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:03 GMT
+Accepted connection from 10.0.0.1, port 34578
+      Cookie: g3ojploj3rnnyemiqk2wepalxa76qj44f3er
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34580
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   846 KBytes  6.93 Mbits/sec                  
+[  5]   1.00-2.00   sec   775 KBytes  6.35 Mbits/sec                  
+[  5]   2.00-3.00   sec   508 KBytes  4.16 Mbits/sec                  
+[  5]   3.00-4.00   sec   431 KBytes  3.53 Mbits/sec                  
+[  5]   4.00-5.00   sec   634 KBytes  5.19 Mbits/sec                  
+[  5]   5.00-5.04   sec  28.3 KBytes  6.38 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.15 MBytes  5.24 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:09 GMT
+Accepted connection from 10.0.0.1, port 34588
+      Cookie: nd6koiay55v2gd3i5pyv4ilbfmxwwmo4i3yh
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34590
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   629 KBytes  5.15 Mbits/sec                  
+[  5]   1.00-2.00   sec   812 KBytes  6.65 Mbits/sec                  
+[  5]   2.00-3.00   sec   609 KBytes  4.99 Mbits/sec                  
+[  5]   3.00-4.00   sec   655 KBytes  5.37 Mbits/sec                  
+[  5]   4.00-5.00   sec   662 KBytes  5.42 Mbits/sec                  
+[  5]   5.00-5.04   sec  15.6 KBytes  3.33 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.30 MBytes  5.50 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:14 GMT
+Accepted connection from 10.0.0.1, port 34592
+      Cookie: quvrgy5oqtuuniih4o5wfrlavkpwduuawza5
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34594
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   461 KBytes  3.78 Mbits/sec                  
+[  5]   1.00-2.00   sec   443 KBytes  3.63 Mbits/sec                  
+[  5]   2.00-3.00   sec   798 KBytes  6.53 Mbits/sec                  
+[  5]   3.00-4.00   sec   694 KBytes  5.69 Mbits/sec                  
+[  5]   4.00-5.00   sec   554 KBytes  4.54 Mbits/sec                  
+[  5]   5.00-5.04   sec  24.0 KBytes  5.67 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.90 MBytes  4.84 Mbits/sec                  receiver
+rcv_tcp_congestion reno
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:19 GMT
+Accepted connection from 10.0.0.1, port 34596
+      Cookie: kwqtw2grytj7llnpeswuoutwsbtjhu3ati5n
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34598
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   486 KBytes  3.98 Mbits/sec                  
+[  5]   1.00-2.00   sec   516 KBytes  4.23 Mbits/sec                  
+[  5]   2.00-3.00   sec   520 KBytes  4.26 Mbits/sec                  
+[  5]   3.00-4.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  5]   4.00-5.00   sec   592 KBytes  4.85 Mbits/sec                  
+[  5]   5.00-5.03   sec  22.6 KBytes  5.65 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  2.59 MBytes  4.31 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:25 GMT
+Accepted connection from 10.0.0.1, port 34600
+      Cookie: rzbenr6rteoopno5gfukusgxw24mkk6nyqbi
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34602
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   478 KBytes  3.92 Mbits/sec                  
+[  5]   1.00-2.00   sec   509 KBytes  4.17 Mbits/sec                  
+[  5]   2.00-3.00   sec   755 KBytes  6.19 Mbits/sec                  
+[  5]   3.00-4.00   sec  1.04 MBytes  8.72 Mbits/sec                  
+[  5]   4.00-5.00   sec  1.13 MBytes  9.45 Mbits/sec                  
+[  5]   5.00-5.10   sec   110 KBytes  9.32 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.10   sec  3.98 MBytes  6.54 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:30 GMT
+Accepted connection from 10.0.0.1, port 34606
+      Cookie: vbv6trzudmgr7vbfjki7mxk5kvumtjf4ibww
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34608
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   481 KBytes  3.94 Mbits/sec                  
+[  5]   1.00-2.00   sec   523 KBytes  4.29 Mbits/sec                  
+[  5]   2.00-3.00   sec   506 KBytes  4.15 Mbits/sec                  
+[  5]   3.00-4.00   sec   553 KBytes  4.53 Mbits/sec                  
+[  5]   4.00-5.00   sec   584 KBytes  4.78 Mbits/sec                  
+[  5]   5.00-5.04   sec  26.9 KBytes  5.88 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.61 MBytes  4.35 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:36 GMT
+Accepted connection from 10.0.0.1, port 34610
+      Cookie: dwab6gsdpljqj7ppvffeqstqxj563allbfbe
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34612
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   481 KBytes  3.94 Mbits/sec                  
+[  5]   1.00-2.00   sec   501 KBytes  4.10 Mbits/sec                  
+[  5]   2.00-3.00   sec   520 KBytes  4.26 Mbits/sec                  
+[  5]   3.00-4.00   sec   546 KBytes  4.47 Mbits/sec                  
+[  5]   4.00-5.00   sec   600 KBytes  4.91 Mbits/sec                  
+[  5]   5.00-5.04   sec  22.6 KBytes  4.85 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.61 MBytes  4.34 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:41 GMT
+Accepted connection from 10.0.0.1, port 34614
+      Cookie: jhyhs6iino4i5n45hpoplguj5fcrw22osjwl
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34616
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   484 KBytes  3.96 Mbits/sec                  
+[  5]   1.00-2.00   sec   682 KBytes  5.59 Mbits/sec                  
+[  5]   2.00-3.00   sec   742 KBytes  6.08 Mbits/sec                  
+[  5]   3.00-4.00   sec   819 KBytes  6.71 Mbits/sec                  
+[  5]   4.00-5.00   sec  1.09 MBytes  9.11 Mbits/sec                  
+[  5]   5.00-5.03   sec  28.3 KBytes  8.71 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  3.78 MBytes  6.30 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:48 GMT
+Accepted connection from 10.0.0.1, port 34618
+      Cookie: zikhw2exfyh63cbhjbacwwhfhtumdobiflss
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34620
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   489 KBytes  4.00 Mbits/sec                  
+[  5]   1.00-2.00   sec   512 KBytes  4.20 Mbits/sec                  
+[  5]   2.00-3.00   sec   544 KBytes  4.46 Mbits/sec                  
+[  5]   3.00-4.00   sec   556 KBytes  4.55 Mbits/sec                  
+[  5]   4.00-5.00   sec   581 KBytes  4.76 Mbits/sec                  
+[  5]   5.00-5.04   sec  25.5 KBytes  4.70 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.64 MBytes  4.40 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:53 GMT
+Accepted connection from 10.0.0.1, port 34624
+      Cookie: p7hiyu3arbdr5nx4ub2tqdr42kc53oltx64z
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34626
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   478 KBytes  3.92 Mbits/sec                  
+[  5]   1.00-2.00   sec   502 KBytes  4.11 Mbits/sec                  
+[  5]   2.00-3.00   sec   520 KBytes  4.26 Mbits/sec                  
+[  5]   3.00-4.00   sec   574 KBytes  4.70 Mbits/sec                  
+[  5]   4.00-5.00   sec   642 KBytes  5.26 Mbits/sec                  
+[  5]   5.00-5.04   sec  25.5 KBytes  5.66 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.68 MBytes  4.46 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:30:58 GMT
+Accepted connection from 10.0.0.1, port 34628
+      Cookie: ptv7cyjqlslphkkmxukvxhbv6s6bok2sdgri
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34630
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   472 KBytes  3.87 Mbits/sec                  
+[  5]   1.00-2.00   sec   484 KBytes  3.96 Mbits/sec                  
+[  5]   2.00-3.00   sec   512 KBytes  4.20 Mbits/sec                  
+[  5]   3.00-4.00   sec   506 KBytes  4.15 Mbits/sec                  
+[  5]   4.00-5.00   sec   532 KBytes  4.36 Mbits/sec                  
+[  5]   5.00-5.04   sec  19.8 KBytes  4.64 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.47 MBytes  4.11 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:04 GMT
+Accepted connection from 10.0.0.1, port 34632
+      Cookie: nbzldhlkg76prwsybulgnc43noouoes3nn56
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34634
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   475 KBytes  3.89 Mbits/sec                  
+[  5]   1.00-2.00   sec   533 KBytes  4.37 Mbits/sec                  
+[  5]   2.00-3.00   sec   567 KBytes  4.64 Mbits/sec                  
+[  5]   3.00-4.00   sec   748 KBytes  6.13 Mbits/sec                  
+[  5]   4.00-5.00   sec  1.01 MBytes  8.51 Mbits/sec                  
+[  5]   5.00-5.04   sec  48.1 KBytes  9.07 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.33 MBytes  5.54 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:09 GMT
+Accepted connection from 10.0.0.1, port 34638
+      Cookie: urmjxjfvyz7v4xdfe4xn3ta2c3wzxjgigbjw
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34640
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   479 KBytes  3.93 Mbits/sec                  
+[  5]   1.00-2.00   sec   484 KBytes  3.96 Mbits/sec                  
+[  5]   2.00-3.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  5]   3.00-4.00   sec   595 KBytes  4.88 Mbits/sec                  
+[  5]   4.00-5.00   sec   952 KBytes  7.79 Mbits/sec                  
+[  5]   5.00-5.09   sec   180 KBytes  15.8 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.09   sec  3.13 MBytes  5.15 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:15 GMT
+Accepted connection from 10.0.0.1, port 34642
+      Cookie: irthi6tmq24zhivcpxhg35xsvvsi74sucrw7
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34644
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   484 KBytes  3.96 Mbits/sec                  
+[  5]   1.00-2.00   sec   489 KBytes  4.01 Mbits/sec                  
+[  5]   2.00-3.00   sec   535 KBytes  4.38 Mbits/sec                  
+[  5]   3.00-4.00   sec   605 KBytes  4.96 Mbits/sec                  
+[  5]   4.00-5.00   sec   738 KBytes  6.04 Mbits/sec                  
+[  5]   5.00-5.04   sec  29.7 KBytes  6.52 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  2.81 MBytes  4.68 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:20 GMT
+Accepted connection from 10.0.0.1, port 34646
+      Cookie: xcjf4vv5etqqffxxlcztkvamiur7i6ocn4gb
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34648
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   501 KBytes  4.10 Mbits/sec                  
+[  5]   1.00-2.00   sec   761 KBytes  6.23 Mbits/sec                  
+[  5]   2.00-3.00   sec   912 KBytes  7.47 Mbits/sec                  
+[  5]   3.00-4.00   sec   977 KBytes  8.01 Mbits/sec                  
+[  5]   4.00-5.00   sec  1.05 MBytes  8.79 Mbits/sec                  
+[  5]   5.00-5.06   sec  63.6 KBytes  9.26 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.06   sec  4.19 MBytes  6.95 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:26 GMT
+Accepted connection from 10.0.0.1, port 34650
+      Cookie: 7nldttl7umv7pgwflc7lvvl7fvbmsda25ezp
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34652
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   474 KBytes  3.88 Mbits/sec                  
+[  5]   1.00-2.00   sec   506 KBytes  4.15 Mbits/sec                  
+[  5]   2.00-3.00   sec   672 KBytes  5.50 Mbits/sec                  
+[  5]   3.00-4.00   sec   737 KBytes  6.04 Mbits/sec                  
+[  5]   4.00-5.00   sec   996 KBytes  8.16 Mbits/sec                  
+[  5]   5.00-5.04   sec  46.7 KBytes  9.23 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.35 MBytes  5.57 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:31 GMT
+Accepted connection from 10.0.0.1, port 34654
+      Cookie: fpotxdk2ogunncefdwf7hijjh5jgzkk7t6kr
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34656
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   358 KBytes  2.93 Mbits/sec                  
+[  5]   1.00-2.00   sec   611 KBytes  5.01 Mbits/sec                  
+[  5]   2.00-3.00   sec   659 KBytes  5.40 Mbits/sec                  
+[  5]   3.00-4.00   sec   708 KBytes  5.80 Mbits/sec                  
+[  5]   4.00-5.00   sec   732 KBytes  6.00 Mbits/sec                  
+[  5]   5.00-5.27   sec   199 KBytes  6.07 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.27   sec  3.19 MBytes  5.08 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:38 GMT
+Accepted connection from 10.0.0.1, port 34660
+      Cookie: ogmed3mkifhkvj5zjljkh4svsigrej4pn75y
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34662
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   492 KBytes  4.03 Mbits/sec                  
+[  5]   1.00-2.00   sec   516 KBytes  4.22 Mbits/sec                  
+[  5]   2.00-3.00   sec   564 KBytes  4.62 Mbits/sec                  
+[  5]   3.00-4.00   sec   786 KBytes  6.45 Mbits/sec                  
+[  5]   4.00-5.00   sec  1.00 MBytes  8.42 Mbits/sec                  
+[  5]   5.00-5.04   sec  39.6 KBytes  8.52 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.35 MBytes  5.57 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:44 GMT
+Accepted connection from 10.0.0.1, port 34664
+      Cookie: c6th4msrp3j33ip2ihbiu6yc5quajrtuzrdj
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34666
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   349 KBytes  2.86 Mbits/sec                  
+[  5]   1.00-2.00   sec   498 KBytes  4.08 Mbits/sec                  
+[  5]   2.00-3.00   sec   587 KBytes  4.81 Mbits/sec                  
+[  5]   3.00-4.00   sec   836 KBytes  6.84 Mbits/sec                  
+[  5]   4.00-5.00   sec  1.07 MBytes  8.98 Mbits/sec                  
+[  5]   5.00-5.31   sec   356 KBytes  9.42 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.31   sec  3.63 MBytes  5.74 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:50 GMT
+Accepted connection from 10.0.0.1, port 34670
+      Cookie: okeqi7yyx66vf4eadas4ba7ynxgzymn2p3ps
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34672
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   486 KBytes  3.98 Mbits/sec                  
+[  5]   1.00-2.00   sec   533 KBytes  4.37 Mbits/sec                  
+[  5]   2.00-3.00   sec   556 KBytes  4.55 Mbits/sec                  
+[  5]   3.00-4.00   sec   584 KBytes  4.79 Mbits/sec                  
+[  5]   4.00-5.00   sec   601 KBytes  4.92 Mbits/sec                  
+[  5]   5.00-5.03   sec  19.8 KBytes  4.64 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  2.71 MBytes  4.52 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:31:55 GMT
+Accepted connection from 10.0.0.1, port 34674
+      Cookie: lmqkuum76u5tgyc6ajof75vabtyuxf726jsl
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34676
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   486 KBytes  3.98 Mbits/sec                  
+[  5]   1.00-2.00   sec   501 KBytes  4.10 Mbits/sec                  
+[  5]   2.00-3.00   sec   512 KBytes  4.19 Mbits/sec                  
+[  5]   3.00-4.00   sec   591 KBytes  4.84 Mbits/sec                  
+[  5]   4.00-5.00   sec   731 KBytes  5.99 Mbits/sec                  
+[  5]   5.00-5.03   sec  43.8 KBytes  10.4 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.03   sec  2.80 MBytes  4.66 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:32:00 GMT
+Accepted connection from 10.0.0.1, port 34678
+      Cookie: ydsmf52o4ytovhjah7zzvunfifp7hvzc74rk
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34680
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   522 KBytes  4.27 Mbits/sec                  
+[  5]   1.00-2.00   sec   595 KBytes  4.88 Mbits/sec                  
+[  5]   2.00-3.00   sec   645 KBytes  5.28 Mbits/sec                  
+[  5]   3.00-4.00   sec   717 KBytes  5.87 Mbits/sec                  
+[  5]   4.00-5.00   sec   998 KBytes  8.18 Mbits/sec                  
+[  5]   5.00-5.04   sec  49.5 KBytes  9.46 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.04   sec  3.44 MBytes  5.73 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------
+Time: Fri, 28 May 2021 14:32:06 GMT
+Accepted connection from 10.0.0.1, port 34684
+      Cookie: ncuz5oxtxt3gcgidyraxjhfkt4o6xxa2k4ty
+      TCP MSS: 0 (default)
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 34686
+Starting Test: protocol: TCP, 1 streams, 131072 byte blocks, omitting 0 seconds, 5 second test, tos 0
+[ ID] Interval           Transfer     Bitrate
+[  5]   0.00-1.00   sec   486 KBytes  3.98 Mbits/sec                  
+[  5]   1.00-2.00   sec   717 KBytes  5.87 Mbits/sec                  
+[  5]   2.00-3.00   sec  1.04 MBytes  8.74 Mbits/sec                  
+[  5]   3.00-4.00   sec  1.14 MBytes  9.55 Mbits/sec                  
+[  5]   4.00-5.00   sec   796 KBytes  6.52 Mbits/sec                  
+[  5]   5.00-5.42   sec   559 KBytes  10.8 Mbits/sec                  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+[  5] (sender statistics not available)
+[  5]   0.00-5.42   sec  4.68 MBytes  7.24 Mbits/sec                  receiver
+rcv_tcp_congestion pcc
+iperf 3.7
+Linux wyland-VirtualBox 4.19.184+ #1 SMP Sun May 9 18:45:55 PDT 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5201
+-----------------------------------------------------------

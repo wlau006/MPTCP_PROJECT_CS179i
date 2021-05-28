@@ -1,17 +1,17 @@
 ------------------------------------------------------------
 Client connecting to 10.0.0.2, TCP port 5001
-TCP window size: 86.2 KByte (default)
+TCP window size: 1.89 MByte (default)
 ------------------------------------------------------------
-[  3] local 10.0.0.1 port 44090 connected with 10.0.0.2 port 5001
+[  3] local 10.0.0.1 port 39998 connected with 10.0.0.2 port 5001
 [ ID] Interval       Transfer     Bandwidth
-[  3]  0.0- 1.0 sec  1.25 MBytes  10.5 Mbits/sec
-[  3]  1.0- 2.0 sec  1.00 MBytes  8.39 Mbits/sec
-[  3]  2.0- 3.0 sec   768 KBytes  6.29 Mbits/sec
-[  3]  3.0- 4.0 sec   896 KBytes  7.34 Mbits/sec
-[  3]  4.0- 5.0 sec   768 KBytes  6.29 Mbits/sec
-[  3]  5.0- 6.0 sec   896 KBytes  7.34 Mbits/sec
-[  3]  6.0- 7.0 sec   768 KBytes  6.29 Mbits/sec
-[  3]  7.0- 8.0 sec   768 KBytes  6.29 Mbits/sec
-[  3]  8.0- 9.0 sec   896 KBytes  7.34 Mbits/sec
-[  3]  9.0-10.0 sec   896 KBytes  7.34 Mbits/sec
-[  3]  0.0-10.1 sec  8.75 MBytes  7.26 Mbits/sec
+[  3]  0.0- 1.0 sec  2.92 MBytes  24.5 Mbits/sec
+[  3]  1.0- 2.0 sec  1.04 MBytes  8.73 Mbits/sec
+[  3]  2.0- 3.0 sec  2.78 MBytes  23.3 Mbits/sec
+[  3]  3.0- 4.0 sec  2.07 MBytes  17.4 Mbits/sec
+[  3]  4.0- 5.0 sec  2.09 MBytes  17.5 Mbits/sec
+[  3]  5.0- 6.0 sec  1.96 MBytes  16.4 Mbits/sec
+[  3]  6.0- 7.0 sec  1.77 MBytes  14.9 Mbits/sec
+[  3]  7.0- 8.0 sec  1.80 MBytes  15.1 Mbits/sec
+[  3]  8.0- 9.0 sec  2.43 MBytes  20.4 Mbits/sec
+[  3]  9.0-10.0 sec  2.61 MBytes  21.9 Mbits/sec
+[  3]  0.0-10.4 sec  21.5 MBytes  17.2 Mbits/sec

@@ -41,7 +41,8 @@ def main():
     time.sleep(1)
     #CLI(net)
     dst = net.get('h2')
-    dst.cmd('iperf -s > sptcp_server_output.txt &')
+    #dst.cmd('iperf3 -s -V > mptcp_server_output_flows_' + numflows + '.txt &')
+    dst.cmd('iperf -s > tcp_server_output.txt &')
     for cc in ['cubic', 'reno','pcc']:
         print('\nTesting bandwidth for {}'.format(cc))
 
@@ -51,7 +52,8 @@ def main():
         # test bandwidth between the two hosts
         src = net.get('h1')        
         for i in range(1, 21):
-            src.cmd('iperf -c 10.0.0.2 -t 10 -i 1 > ./' + cc + '/sptcp_' + cc +'_client_' + str(i) +'_flows_' + '.txt')
+            #src.cmd('iperf3 -c 10.0.0.2 -V -C ' + cc + ' -t 5 -i 0.2 > ./' + cc + '/mptcp_' + cc +'_client_' + str(i) +'_flows_' + str(numflows) + '.txt')    
+            src.cmd('iperf -c 10.0.0.2 -t 10 -i 1 > ./' + cc + '/tcp_' + cc +'_client_' + str(i) + '.txt')
     
     net.stop()
 
