@@ -76,7 +76,7 @@ def main():
         # test bandwidth between the two hosts
         src = net.get('h1')        
         for i in range(1, 21):
-            src.cmd('iperf -c 10.0.0.2 -t 10 -i 1 > ./' + cc + '/mptcp_' + cc +'_client_' + str(i) +'_flows_' + numflows + '.txt')    
+            src.cmd('iperf -c 10.0.0.2 -t 10 -i 1 > ./' + cc + '/mptcp_' + cc +'_client_' + str(i) +'_flows_' + str(numflows) + '.txt')    
     net.stop()
 
 

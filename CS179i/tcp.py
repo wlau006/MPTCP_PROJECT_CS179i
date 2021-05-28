@@ -1,13 +1,5 @@
 #!/usr/bin/env python
-"""Custom topology example
 
-Two directly connected switches plus a host for each switch:
-
-   host --- switch --- switch --- host
-
-Adding the 'topos' dict with a key/value pair to generate our newly defined
-topology enables one to pass in '--topo=mytopo' from the command line.
-"""
 import os
 import time
 from mininet.topo import Topo
@@ -48,6 +40,8 @@ def main():
     net.start()
     time.sleep(1)
     #CLI(net)
+    dst = net.get('h2')
+    dst.cmd('iperf -s > sptcp_server_output.txt &')
     for cc in ['cubic', 'reno','pcc']:
         print('\nTesting bandwidth for {}'.format(cc))
 
@@ -55,10 +49,9 @@ def main():
         os.system('sysctl -w net.ipv4.tcp_congestion_control={}'.format(cc))
 
         # test bandwidth between the two hosts
-        src = net.get('h1')
-        dst = net.get('h2')
-        for i in range(1, 20):
-            net.iperf([src, dst], seconds=5)
+        src = net.get('h1')        
+        for i in range(1, 21):
+            src.cmd('iperf -c 10.0.0.2 -t 10 -i 1 > ./' + cc + '/sptcp_' + cc +'_client_' + str(i) +'_flows_' + '.txt')
     
     net.stop()
 
