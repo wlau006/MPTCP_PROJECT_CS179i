@@ -68,32 +68,28 @@ def main():
     os.system('sysctl -w net.mptcp.mptcp_enabled=1')
     os.system('sysctl -w net.mptcp.mptcp_path_manager=fullmesh')
     os.system('sysctl -w net.mptcp.mptcp_scheduler=default')
-    topo = MyTopo()
-    net = Mininet(topo = topo, link=TCLink)
-    topo.setup_routing(net)
-    net.start()
-    time.sleep(1)
-    #CLI(net)
-    src = net.get('h1') 
-    dst = net.get('h2')
-    src2 = net.get('h3')
-    dst2 = net.get('h4')
-    dst.cmd('iperf -s &')
-    dst2.cmd('iperf -s &')
-
     for cc in ['lia', 'olia', 'balia', 'wvegas','cubic','reno','pcc']:
+        topo = MyTopo()
+        net = Mininet(topo = topo, link=TCLink)
+        topo.setup_routing(net)
+        net.start()
+        time.sleep(1)
+        #CLI(net)
+        src = net.get('h1') 
+        dst = net.get('h2')
+        src2 = net.get('h3')
+        dst2 = net.get('h4')
+        dst.cmd('iperf -s &')
+
         print('\nTesting bandwidth for {}'.format(cc))
 
         # set congestion control algoritm
         os.system('sysctl -w net.ipv4.tcp_congestion_control={}'.format(cc))
-
-        src.cmd('iperf -c 10.0.0.2 -t 10 -i 0.2 > ./twohost/' + cc + '/host_1_mptcp_' + str(numclients) +'_client_' + str(numservers) + '_server_' + str(numflows) + '_flows.txt &')
+        src2.cmd('ping ' + dst2.IP() + ' -v -w 20 -i 1 > ./twohost/' + cc + '/host_2_mptcp_' + str(numclients) +'_client_' + str(numservers) + '_server_' + str(numflows) + '_flows_latency.txt &')
         time.sleep(5)
-        src2.cmd('iperf -c 10.0.0.4 -t 10 -i 0.2')
-        src.cmd('iperf -c 10.0.0.2 -t 10 -i 0.2 &')
+        src.cmd('iperf -c ' + dst.IP() + ' -t 10')
         time.sleep(5)
-        src2.cmd('iperf -c 10.0.0.4 -t 10 -i 0.2 > ./twohost/' + cc + '/host_2_mptcp_' + str(numclients) +'_client_' + str(numservers) + '_server_' + str(numflows) + '_flows.txt')
-    net.stop()
+        net.stop()
 
 
 if __name__ == '__main__':

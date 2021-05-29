@@ -8,8 +8,10 @@ from mininet.cli import CLI
 from mininet.net import Mininet
 
 numflows = 2
-#['lia', 'olia', 'balia', 'wvegas','cubic','reno','pcc']
-cc = 'pcc'
+numclients = 2
+numservers = 2
+
+
 class MPTopo(Topo):
     HOST_IP = '10.0.{0}.{1}'
     HOST_MAC = '00:00:00:00:{0:02x}:{1:02x}'
@@ -40,33 +42,55 @@ class MyTopo( MPTopo ):
         # Add hosts and switches
         leftHost = self.addHost( 'h1' )
         rightHost = self.addHost( 'h2' )
+        leftHost2 = self.addHost( 'h3' )
+        rightHost2 = self.addHost( 'h4' )
         leftSwitch = self.addSwitch( 's1' )
         leftSwitch2 = self.addSwitch( 's2' )
         rightSwitch = self.addSwitch( 's3' )        
         rightSwitch2 = self.addSwitch( 's4' )
 
         # Add links
-        self.addLink( leftHost, leftSwitch, bw = 10, delay='5ms', loss=1)
-        self.addLink( leftHost, leftSwitch2, bw = 10, delay='5ms', loss=1)
-        self.addLink( leftSwitch, rightSwitch)
-        self.addLink( leftSwitch2, rightSwitch2)
-        self.addLink( rightSwitch, rightHost, bw = 10, delay='5ms', loss=1)
-        self.addLink( rightSwitch2, rightHost, bw = 10, delay='5ms', loss=1)
+        self.addLink( leftHost, leftSwitch, bw = 10)
+        self.addLink( leftHost, leftSwitch2, bw = 10)
+        self.addLink( leftHost2, leftSwitch, bw = 10)
+        self.addLink( leftHost2, leftSwitch2, bw = 10)
+        self.addLink( leftSwitch, rightSwitch, bw = 10)
+        self.addLink( leftSwitch2, rightSwitch2, bw = 10)
+        self.addLink( rightSwitch, rightHost, bw = 10)
+        self.addLink( rightSwitch2, rightHost, bw = 10)
+        self.addLink( rightSwitch, rightHost2, bw = 10)
+        self.addLink( rightSwitch2, rightHost2, bw = 10)
 topos = { 'mytopo': ( lambda: MyTopo() ) }
 
 def main():
     print('\n### TESTING SPTCP ###')
     os.system('modprobe mptcp_balia; modprobe mptcp_wvegas; modprobe mptcp_olia; modprobe mptcp_coupled')
     os.system('sysctl -w net.mptcp.mptcp_enabled=0')
-    os.system('sysctl -w net.ipv4.tcp_congestion_control={}'.format(cc))
-    topo = MyTopo()
-    net = Mininet(topo = topo, link=TCLink)
-    topo.setup_routing(net)
-    net.start()
-    time.sleep(1)
-    src = net.get('h1') 
-    src.cmd('ping -c 50 -s 10000 10.0.0.2 > tcp_latency.txt')
-    net.stop()
+    for cc in ['cubic','reno','pcc']:
+        topo = MyTopo()
+        net = Mininet(topo = topo, link=TCLink)
+        topo.setup_routing(net)
+        net.start()
+        time.sleep(1)
+        #CLI(net)
+        src = net.get('h1') 
+        dst = net.get('h2')
+        src2 = net.get('h3')
+        dst2 = net.get('h4')
+        dst.cmd('iperf -s &')
+        dst2.cmd('iperf -s &')
+        print('\nTesting bandwidth for {}'.format(cc))
+
+        # set congestion control algoritm
+        os.system('sysctl -w net.ipv4.tcp_congestion_control={}'.format(cc))
+
+        src.cmd('iperf -c ' + dst.IP() + ' -t 10 -i 0.2 > ./twohost/' + cc + '/host_1_tcp_' + str(numclients) +'_client_' + str(numservers) + '_server_' + str(numflows) + '_flows.txt &')
+        time.sleep(5)
+        src2.cmd('iperf -c ' + dst2.IP() + ' -t 10')
+        src.cmd('iperf -c ' + dst.IP() + ' -t 10 &')
+        time.sleep(5)
+        src2.cmd('iperf -c ' + dst2.IP() + ' -t 10 -i 0.2 > ./twohost/' + cc + '/host_2_tcp_' + str(numclients) +'_client_' + str(numservers) + '_server_' + str(numflows) + '_flows.txt')
+        net.stop()
 
 
 if __name__ == '__main__':
