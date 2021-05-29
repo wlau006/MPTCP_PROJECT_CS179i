@@ -7,31 +7,8 @@ from mininet.link import TCLink
 from mininet.cli import CLI
 from mininet.net import Mininet
 
-numflows = 2
-#['lia', 'olia', 'balia', 'wvegas','cubic','reno','pcc']
-cc = 'pcc'
-class MPTopo(Topo):
-    HOST_IP = '10.0.{0}.{1}'
-    HOST_MAC = '00:00:00:00:{0:02x}:{1:02x}'
 
-    def _setup_routing_per_host(self, host):
-        # Manually set the ip addresses of the interfaces
-        host_id = int(host.name[1:])
-
-        for i, intf_name in enumerate(host.intfNames()):
-            ip = self.HOST_IP.format(i, host_id)
-            gateway = self.HOST_IP.format(i, 0)
-            mac = self.HOST_MAC.format(i, host_id)
-
-            # set IP and MAC of host
-            host.intf(intf_name).config(ip='{}/24'.format(ip), mac=mac)
-    def setup_routing(self, net):
-        for host in self.hosts():
-            self._setup_routing_per_host(net.get(host))
-
-
-
-class MyTopo( MPTopo ):
+class MyTopo( Topo ):
     "Simple topology example."
 
     def build( self ):
@@ -42,7 +19,7 @@ class MyTopo( MPTopo ):
         rightHost = self.addHost( 'h2' )
         leftSwitch = self.addSwitch( 's1' )
         leftSwitch2 = self.addSwitch( 's2' )
-        rightSwitch = self.addSwitch( 's3' )        
+        rightSwitch = self.addSwitch( 's3' )
         rightSwitch2 = self.addSwitch( 's4' )
 
         # Add links
@@ -58,14 +35,26 @@ def main():
     print('\n### TESTING SPTCP ###')
     os.system('modprobe mptcp_balia; modprobe mptcp_wvegas; modprobe mptcp_olia; modprobe mptcp_coupled')
     os.system('sysctl -w net.mptcp.mptcp_enabled=0')
-    os.system('sysctl -w net.ipv4.tcp_congestion_control={}'.format(cc))
     topo = MyTopo()
     net = Mininet(topo = topo, link=TCLink)
-    topo.setup_routing(net)
     net.start()
     time.sleep(1)
-    src = net.get('h1') 
-    src.cmd('ping -c 50 -s 10000 10.0.0.2 > tcp_latency.txt')
+    #CLI(net)
+    dst = net.get('h2')
+    #dst.cmd('iperf3 -s -V > mptcp_server_output_flows_' + numflows + '.txt &')
+    dst.cmd('iperf -s > tcp_server_output.txt &')
+    for cc in ['cubic', 'reno','pcc']:
+        print('\nTesting bandwidth for {}'.format(cc))
+
+        # set congestion control algoritm
+        os.system('sysctl -w net.ipv4.tcp_congestion_control={}'.format(cc))
+
+        # test bandwidth between the two hosts
+        src = net.get('h1')        
+        for i in range(1, 21):
+            #src.cmd('iperf3 -c 10.0.0.2 -V -C ' + cc + ' -t 5 -i 0.2 > ./' + cc + '/mptcp_' + cc +'_client_' + str(i) +'_flows_' + str(numflows) + '.txt')    
+            src.cmd('iperf -c 10.0.0.2 -t 10 -i 1 > ./' + cc + '/tcp_' + cc +'_client_' + str(i) + '.txt')
+    
     net.stop()
 
 
